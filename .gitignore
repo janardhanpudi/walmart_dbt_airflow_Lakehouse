@@ -1,0 +1,50 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+
+# Local environments
+.venv
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!.env.*.example
+**/.npmrc
+**/.neon
+*.pem
+*.key
+*.p12
+
+# Airflow runtime files
+logs/
+airflow.db
+airflow.db-*
+/airflow/config/airflow.cfg
+/airflow/docker-compose.yaml.backup
+
+# dbt-generated files and local credentials
+**/target/
+**/dbt_packages/
+**/logs/
+**/profiles.yml
+/walmart_dbt/.user.yml
+/walmart_datapipeline/connection
+
+# JavaScript dependencies and logs
+node_modules/
+npm-debug.log*
+
+# Keep README files only at the repository root
